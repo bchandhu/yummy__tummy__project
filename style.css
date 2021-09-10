@@ -1,0 +1,285 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Adding the CSS Box Model*/
+}.head__div {
+    background-color: white;
+    height: 50px;
+    position: sticky;
+    margin: 0px;
+
+
+}
+
+.brand__logo {
+
+    margin-top: 10px;
+    width: 140px;
+    height: 70px;
+    align-items: center;
+
+
+}
+
+.body__color {
+    background-color: lavender;
+
+}
+
+.navbar {
+
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: no-wrap;
+    background-color: aliceblue;
+    width: 100%;
+    height: 75px;
+    box-shadow: -1px -1px 7px grey;
+    -webkit-animation: nav-enter 1s;
+    animation: nav-enter 1s;
+}
+
+.navbar__brand {
+    position: relative;
+}
+
+.button__primary {
+    background-image: linear-gradient(to right, yellow 0%, #dd2476 50%, #ff512f 100%);
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: 5s;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: 0 0 20px skyblue;
+    background-size: 200% auto;
+    display: block;
+}
+
+.cart__div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.restaurant__image1 {
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+}
+
+.parent__class {
+
+    width: 100%;
+    height: 1px;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 9999;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 100px;
+
+}
+
+.search__class {
+    display: flex;
+    letter-spacing: 2px;
+    font-size: 27px;
+    caret-color: orangered;
+    padding-left: 2.5vw;
+    border: 1px solid gainsboro;
+    width: 900;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.button__class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background-color:rgb(122, 79, 163);
+    width: 170px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 16px;
+
+    color: #272727;
+}
+
+.branches__class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: darkred;
+    border: none;
+    background-color: turquoise;
+    width: 1000px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.branch{
+    padding-left: 50px;
+    color:black;
+    font-weight: bold;
+}
+.img__1 {
+    background-image: linear-gradient(5);
+    width: 100%;
+    height: 800px;
+
+}
+
+.thirdblock__parent {
+    
+    width: 100%;
+    height: 550px;
+    display: flex;
+    /*here by default the flex is row direction */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content:center */
+    /* justify-content:flex-end; */
+    /*justify-content:space-between;
+    justify-content:space-between;
+    justify-content:space-evenly; */
+
+    /* flex-wrap: wrap; ***this property is used when the size increases more than the parent flex size */
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+.thirdchild {
+    background-color: aqua;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 5px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #FFB6C1 30%, #DCDCDC 50%, #ADD8E6 100%);
+    background-image: linear-gradient(
+        45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef),linear-gradient(
+        45deg,#efefef 25%,rgba(239,239,239,0) 25%,rgba(239,239,239,0) 75%,#efefef 75%,#efefef);;
+    
+}
+
+.re__image1,.re__image2,.re__image3 {
+    margin-top: 40px;
+    width: 400px;
+    height: 400px
+}
+.GOA{
+    font-size: 70px;
+    margin-top: 40px;
+    line-height: 1.75rem;
+    color:rgb(122, 79, 163) 10%, palevioletred 50%;
+    text-align: center;
+    
+    
+   
+
+}
+.middle__div{
+    
+    height: 600px;
+    width: 100%;
+    
+}
+.glitter{
+    
+    margin-top: 500px;
+}
+.ourstory{
+    
+    display: block;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.ourstory1{
+    font-size: 20px;
+    text-align: center;
+    white-space: pre-wrap;
+    margin-bottom: 0px;
+    
+}
+.buttondiv1{
+    display: block;
+}
+.buttondiv2{
+    text-align: center;
+    
+}
+.buttonlink{
+    width: 500px;
+    height: 30px;
+    margin-top: 0px;
+    color: black;
+    
+}
+.linkcolor{
+    color: black;
+    font-size: 20px;
+}
+.address{
+    margin-bottom: 100px;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+.address__heading{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    white-space: pre-wrap;
+   
+}
+.yourname1{
+color: white;
+font-size: 20px;
+}
+.yourname2{
+
+    width: 300px;
+    height:30px;
+}
+
+.lastbutton{
+    height: 30px;
+    width: 200px;
+    color:yellow;
+}
+.container {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  
+  .centered {
+    background-image: linear-gradient(to right, #FFB6C1 30%, #DCDCDC 50%, #ADD8E6 100%);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
